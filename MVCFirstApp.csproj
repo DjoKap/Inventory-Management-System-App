@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\img\img-asset_management-1440.webp\**" />
+    <Compile Remove="wwwroot\assets\img\inventory system.jpg\**" />
+    <Compile Remove="wwwroot\assets\img\traking details.png\**" />
+    <Content Remove="wwwroot\assets\img\img-asset_management-1440.webp\**" />
+    <Content Remove="wwwroot\assets\img\inventory system.jpg\**" />
+    <Content Remove="wwwroot\assets\img\traking details.png\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\img-asset_management-1440.webp\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\inventory system.jpg\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\traking details.png\**" />
+    <None Remove="wwwroot\assets\img\img-asset_management-1440.webp\**" />
+    <None Remove="wwwroot\assets\img\inventory system.jpg\**" />
+    <None Remove="wwwroot\assets\img\traking details.png\**" />
+  </ItemGroup>
+
+</Project>
